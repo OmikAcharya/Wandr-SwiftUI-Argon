@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		066C7CEF95286171E8AA826A /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7DEED4CE2FFDFE2B5B9440 /* PersistenceService.swift */; };
+		17AD64CCD2838EA9E7847093 /* PolaroidPhotoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791246411C4CAE7974C04069 /* PolaroidPhotoCard.swift */; };
+		2472D959D497D5BA50BF01BB /* TripsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C757B3C55838BBE94B2D7040 /* TripsHomeView.swift */; };
+		2CD397E95288E209287893BD /* TripCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1C07C5748CC339B7ED3476 /* TripCardView.swift */; };
+		37D930F5DBF36E15C1227959 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC9FEF473283C3CBD4186E4 /* JournalEntry.swift */; };
+		457EA3CBCE59D272B9E770D6 /* AtlasMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928A11775B2268C04C778D5F /* AtlasMapView.swift */; };
+		58817558D978ACD926D9D3B8 /* AddEditTripSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C357AEFD9591FDD4E28D40DE /* AddEditTripSheet.swift */; };
+		65B68C215B741527B340CA39 /* SampleDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CB26ECCB9FDBB105F13B79 /* SampleDataGenerator.swift */; };
+		690A7CE5215E4E722572C37A /* MemoriesFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8118E7B7EED092CFEE37078B /* MemoriesFeedView.swift */; };
+		6D8C307D661696DC4116F79A /* EntryTimelineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9635DA7C17D5BDB1B688507 /* EntryTimelineRow.swift */; };
+		7442CB5F250DC31D0619EC18 /* EntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CAA75B4F41AA11A72D5EE2 /* EntryDetailView.swift */; };
+		8362ED31C8D59F9621B537FF /* TravelPassportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC217298A02BD4C3A4A03AA1 /* TravelPassportView.swift */; };
+		8ABAF9FD0A997AF871FF2141 /* AddEditEntrySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA95EA0EF4C879A79B87211 /* AddEditEntrySheet.swift */; };
+		8C3EDA39850C5A41655DD0A4 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AB4361AE698B3DFD00385 /* FlowLayout.swift */; };
+		8C76441C0602E62EA2D5C24A /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD06E40BA4FC38F3243BDB13 /* Trip.swift */; };
+		924E509CFD7AA68887D0EFFE /* TravelEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF99A7F96D7D247C77A8943 /* TravelEnums.swift */; };
+		942748A65F6EC023D33AB609 /* PhotoLightboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA34AC90EE8AFA888A67DA /* PhotoLightboxView.swift */; };
+		978EB83303E16F5E7C2E6128 /* WandrStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BF844A19D2A6F5316A992E /* WandrStore.swift */; };
+		A44A11E7FDE31C6C36D8E021 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9E4B683AA28AF30283E341 /* DateExtensions.swift */; };
+		A5AB48F938600C9DF53545CB /* WandrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AED3E697232F3B3088A7AF3 /* WandrApp.swift */; };
+		A76852C8EDA99A8D802FE01E /* ImageStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2CE9A21F91E4697108F50 /* ImageStorageService.swift */; };
+		D7F2E4186A3722DA5E012367 /* AsyncDiskImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850A03207C25F02AFA0CDC0 /* AsyncDiskImage.swift */; };
+		E25DF1F6E364AB30D70FDA93 /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DF479BDE120597E649306D /* TripDetailView.swift */; };
+		EA395404E101DA6347AE64C1 /* LocationPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6F5A323AD378127289569F /* LocationPickerSheet.swift */; };
+		EC47E35041E2FFA1B98759BB /* LocationSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452DB36F976DBC2B0A581CFF /* LocationSearchService.swift */; };
+		EE7DBA8B4EDCC9DA79B07624 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B766CEEAA10F554FD7233BA /* MainTabView.swift */; };
+		FE5796109D3C184C83B3640E /* WandrTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF2848F3127D569D7EA51D0 /* WandrTheme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AED3E697232F3B3088A7AF3 /* WandrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WandrApp.swift; sourceTree = "<group>"; };
+		30DF479BDE120597E649306D /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
+		452DB36F976DBC2B0A581CFF /* LocationSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchService.swift; sourceTree = "<group>"; };
+		5B766CEEAA10F554FD7233BA /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		5EC9FEF473283C3CBD4186E4 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		6CF2848F3127D569D7EA51D0 /* WandrTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WandrTheme.swift; sourceTree = "<group>"; };
+		791246411C4CAE7974C04069 /* PolaroidPhotoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolaroidPhotoCard.swift; sourceTree = "<group>"; };
+		7AA95EA0EF4C879A79B87211 /* AddEditEntrySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditEntrySheet.swift; sourceTree = "<group>"; };
+		8118E7B7EED092CFEE37078B /* MemoriesFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesFeedView.swift; sourceTree = "<group>"; };
+		854AB4361AE698B3DFD00385 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		88BF844A19D2A6F5316A992E /* WandrStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WandrStore.swift; sourceTree = "<group>"; };
+		928A11775B2268C04C778D5F /* AtlasMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasMapView.swift; sourceTree = "<group>"; };
+		94CAA75B4F41AA11A72D5EE2 /* EntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailView.swift; sourceTree = "<group>"; };
+		9FE2CE9A21F91E4697108F50 /* ImageStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStorageService.swift; sourceTree = "<group>"; };
+		AD6F5A323AD378127289569F /* LocationPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerSheet.swift; sourceTree = "<group>"; };
+		B850A03207C25F02AFA0CDC0 /* AsyncDiskImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncDiskImage.swift; sourceTree = "<group>"; };
+		BE1C07C5748CC339B7ED3476 /* TripCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCardView.swift; sourceTree = "<group>"; };
+		C1EA34AC90EE8AFA888A67DA /* PhotoLightboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLightboxView.swift; sourceTree = "<group>"; };
+		C357AEFD9591FDD4E28D40DE /* AddEditTripSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTripSheet.swift; sourceTree = "<group>"; };
+		C757B3C55838BBE94B2D7040 /* TripsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsHomeView.swift; sourceTree = "<group>"; };
+		CAF99A7F96D7D247C77A8943 /* TravelEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelEnums.swift; sourceTree = "<group>"; };
+		DD06E40BA4FC38F3243BDB13 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		E2CB26ECCB9FDBB105F13B79 /* SampleDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataGenerator.swift; sourceTree = "<group>"; };
+		E9635DA7C17D5BDB1B688507 /* EntryTimelineRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTimelineRow.swift; sourceTree = "<group>"; };
+		EA7DEED4CE2FFDFE2B5B9440 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		EC217298A02BD4C3A4A03AA1 /* TravelPassportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelPassportView.swift; sourceTree = "<group>"; };
+		EF8F681FAE45E23A27F35D1F /* Wandr.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Wandr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9E4B683AA28AF30283E341 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1D76FE8B7E1D32651D0C069B /* Entries */ = {
+			isa = PBXGroup;
+			children = (
+				7AA95EA0EF4C879A79B87211 /* AddEditEntrySheet.swift */,
+				94CAA75B4F41AA11A72D5EE2 /* EntryDetailView.swift */,
+			);
+			path = Entries;
+			sourceTree = "<group>";
+		};
+		20B68376F03857285799F584 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9FE2CE9A21F91E4697108F50 /* ImageStorageService.swift */,
+				452DB36F976DBC2B0A581CFF /* LocationSearchService.swift */,
+				EA7DEED4CE2FFDFE2B5B9440 /* PersistenceService.swift */,
+				E2CB26ECCB9FDBB105F13B79 /* SampleDataGenerator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		252AF8D5F63E356B3391D539 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F681FAE45E23A27F35D1F /* Wandr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A81AD46DC140A568463834C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5EC9FEF473283C3CBD4186E4 /* JournalEntry.swift */,
+				CAF99A7F96D7D247C77A8943 /* TravelEnums.swift */,
+				DD06E40BA4FC38F3243BDB13 /* Trip.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5008B93B69D10FBC72232C1E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FB9E4B683AA28AF30283E341 /* DateExtensions.swift */,
+				6CF2848F3127D569D7EA51D0 /* WandrTheme.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5F0AA6A2C12D139B5FAB76F7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B850A03207C25F02AFA0CDC0 /* AsyncDiskImage.swift */,
+				E9635DA7C17D5BDB1B688507 /* EntryTimelineRow.swift */,
+				854AB4361AE698B3DFD00385 /* FlowLayout.swift */,
+				C1EA34AC90EE8AFA888A67DA /* PhotoLightboxView.swift */,
+				791246411C4CAE7974C04069 /* PolaroidPhotoCard.swift */,
+				BE1C07C5748CC339B7ED3476 /* TripCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5FB5D6C4FFAD050EBB8F042C /* Wandr */ = {
+			isa = PBXGroup;
+			children = (
+				2AED3E697232F3B3088A7AF3 /* WandrApp.swift */,
+				5F0AA6A2C12D139B5FAB76F7 /* Components */,
+				4A81AD46DC140A568463834C /* Models */,
+				20B68376F03857285799F584 /* Services */,
+				5008B93B69D10FBC72232C1E /* Utilities */,
+				9E2A6B66C77E01D35CDE0AD2 /* ViewModels */,
+				916E54F693FA4246353508BD /* Views */,
+			);
+			path = Wandr;
+			sourceTree = "<group>";
+		};
+		5FEBA189B840DF6E4A709B6B /* Memories */ = {
+			isa = PBXGroup;
+			children = (
+				8118E7B7EED092CFEE37078B /* MemoriesFeedView.swift */,
+			);
+			path = Memories;
+			sourceTree = "<group>";
+		};
+		916E54F693FA4246353508BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B766CEEAA10F554FD7233BA /* MainTabView.swift */,
+				967E9745A05BB5E405F6934F /* Atlas */,
+				1D76FE8B7E1D32651D0C069B /* Entries */,
+				5FEBA189B840DF6E4A709B6B /* Memories */,
+				CC6FCD4B3A3D8338015CBA6C /* Passport */,
+				BDBE34F829FFE40956A1E0E8 /* Trips */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		967E9745A05BB5E405F6934F /* Atlas */ = {
+			isa = PBXGroup;
+			children = (
+				928A11775B2268C04C778D5F /* AtlasMapView.swift */,
+				AD6F5A323AD378127289569F /* LocationPickerSheet.swift */,
+			);
+			path = Atlas;
+			sourceTree = "<group>";
+		};
+		9E2A6B66C77E01D35CDE0AD2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				88BF844A19D2A6F5316A992E /* WandrStore.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BDBE34F829FFE40956A1E0E8 /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				C357AEFD9591FDD4E28D40DE /* AddEditTripSheet.swift */,
+				30DF479BDE120597E649306D /* TripDetailView.swift */,
+				C757B3C55838BBE94B2D7040 /* TripsHomeView.swift */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		CC6FCD4B3A3D8338015CBA6C /* Passport */ = {
+			isa = PBXGroup;
+			children = (
+				EC217298A02BD4C3A4A03AA1 /* TravelPassportView.swift */,
+			);
+			path = Passport;
+			sourceTree = "<group>";
+		};
+		D6ABC1200B64C0566C03CC1C = {
+			isa = PBXGroup;
+			children = (
+				5FB5D6C4FFAD050EBB8F042C /* Wandr */,
+				252AF8D5F63E356B3391D539 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB5BFB31D3910443D8F6810 /* Wandr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B44786267E0B5E7DCCC36246 /* Build configuration list for PBXNativeTarget "Wandr" */;
+			buildPhases = (
+				A26ED7843CA56F3398EEC1E3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wandr;
+			packageProductDependencies = (
+			);
+			productName = Wandr;
+			productReference = EF8F681FAE45E23A27F35D1F /* Wandr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EEBA0B09FEB8EE8D819C670 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = D897BBECB9717ED4F25B5B06 /* Build configuration list for PBXProject "Wandr" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D6ABC1200B64C0566C03CC1C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 252AF8D5F63E356B3391D539 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB5BFB31D3910443D8F6810 /* Wandr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A26ED7843CA56F3398EEC1E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABAF9FD0A997AF871FF2141 /* AddEditEntrySheet.swift in Sources */,
+				58817558D978ACD926D9D3B8 /* AddEditTripSheet.swift in Sources */,
+				D7F2E4186A3722DA5E012367 /* AsyncDiskImage.swift in Sources */,
+				457EA3CBCE59D272B9E770D6 /* AtlasMapView.swift in Sources */,
+				A44A11E7FDE31C6C36D8E021 /* DateExtensions.swift in Sources */,
+				7442CB5F250DC31D0619EC18 /* EntryDetailView.swift in Sources */,
+				6D8C307D661696DC4116F79A /* EntryTimelineRow.swift in Sources */,
+				8C3EDA39850C5A41655DD0A4 /* FlowLayout.swift in Sources */,
+				A76852C8EDA99A8D802FE01E /* ImageStorageService.swift in Sources */,
+				37D930F5DBF36E15C1227959 /* JournalEntry.swift in Sources */,
+				EA395404E101DA6347AE64C1 /* LocationPickerSheet.swift in Sources */,
+				EC47E35041E2FFA1B98759BB /* LocationSearchService.swift in Sources */,
+				EE7DBA8B4EDCC9DA79B07624 /* MainTabView.swift in Sources */,
+				690A7CE5215E4E722572C37A /* MemoriesFeedView.swift in Sources */,
+				066C7CEF95286171E8AA826A /* PersistenceService.swift in Sources */,
+				942748A65F6EC023D33AB609 /* PhotoLightboxView.swift in Sources */,
+				17AD64CCD2838EA9E7847093 /* PolaroidPhotoCard.swift in Sources */,
+				65B68C215B741527B340CA39 /* SampleDataGenerator.swift in Sources */,
+				924E509CFD7AA68887D0EFFE /* TravelEnums.swift in Sources */,
+				8362ED31C8D59F9621B537FF /* TravelPassportView.swift in Sources */,
+				8C76441C0602E62EA2D5C24A /* Trip.swift in Sources */,
+				2CD397E95288E209287893BD /* TripCardView.swift in Sources */,
+				E25DF1F6E364AB30D70FDA93 /* TripDetailView.swift in Sources */,
+				2472D959D497D5BA50BF01BB /* TripsHomeView.swift in Sources */,
+				A5AB48F938600C9DF53545CB /* WandrApp.swift in Sources */,
+				978EB83303E16F5E7C2E6128 /* WandrStore.swift in Sources */,
+				FE5796109D3C184C83B3640E /* WandrTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02E9256170F4E805A6839E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Wandr needs access to your photo library so you can attach photos to your travel memories.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wandr.traveldiary;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08112D286DF48D656721CC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		749ACE76D5D51BBB981968CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Wandr needs access to your photo library so you can attach photos to your travel memories.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wandr.traveldiary;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D027567C18F61558968202F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B44786267E0B5E7DCCC36246 /* Build configuration list for PBXNativeTarget "Wandr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E9256170F4E805A6839E6E /* Debug */,
+				749ACE76D5D51BBB981968CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D897BBECB9717ED4F25B5B06 /* Build configuration list for PBXProject "Wandr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08112D286DF48D656721CC18 /* Debug */,
+				D027567C18F61558968202F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EEBA0B09FEB8EE8D819C670 /* Project object */;
+}
